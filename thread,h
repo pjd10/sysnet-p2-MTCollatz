@@ -1,5 +1,5 @@
 /** @file       thread.h
- *  @brief      This file holds the functions that handle all thread operations.
+ *  @brief      File that holds the fuctions that handle threads.
  *
  *  @author     Paul Davila (pjd10)
  *  @author     Christopher Blaylock (cdb56)
@@ -9,8 +9,12 @@
  *  @bug        No known bugs
  */
 
- // Include Definitions
 #ifndef _THREAD_H_
 #define _THREAD_H_
+
+#define MAX_INT 4294967295
+#define BILLION 1E9
+
+int collatzSequence(unsigned long int n, int i);
 
 #endif
