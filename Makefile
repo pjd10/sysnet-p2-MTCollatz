@@ -1,4 +1,4 @@
-CFLAGS = -g -Wall
+CFLAGS = -g -lrt -pthread -Wall
 CC = gcc
 
 objects =  mt-collatz.o thread.o 
