@@ -70,7 +70,7 @@ void *collatzThread(void *n_void_ptr)
 	{
 		temp = counter++;
 		cStopCount[getCollatzStoppingTime(temp)]++;
-		//fprintf(stdout, "T: %lu\tN:%lu\tK:%d\n", t_id, temp, getCollatzStoppingTime(temp));
+		fprintf(stdout, "T: %lu\tN:%lu\tK:%d\n", t_id, temp, getCollatzStoppingTime(temp));
 	}
 	
 	pthread_exit(NULL);
